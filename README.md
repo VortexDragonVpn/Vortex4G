@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/VortexDragonVpn/Vortex4G/main/README.md",
   "Sms": "BOTAR LINK DO SMS AQUI",
@@ -29,12 +29,11 @@
     {
       "Name": "?VIVO CLOUD",
       "FLAG": "vivo",
-      "Payload": "GET wss://money-staging.infinitepay.io/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "money-staging.infinitepay.io",
-      "TlsIP": "104.18.7.80",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: mentalista[crlf][crlf]"
+      "TlsIP": "",
+      "ProxyIP": "celular.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
     {
       "Name": "?VIVO FAST",
@@ -83,7 +82,7 @@
       "SNI": "go.kaltura.com",
       "TlsIP": "go.kaltura.com",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
@@ -93,19 +92,39 @@
       "SNI": "4.icanhazip.com",
       "TlsIP": "4.icanhazip.com",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
+      "Name": "TIM 2", 
+      "FLAG": "tim", 
+      "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "static.r4you.co", 
+      "TlsIP": "104.26.5.175", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws"
+    }, 
+    { 
+      "Name": "TIM 3", 
+      "FLAG": "tim", 
+      "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "static.r4you.co", 
+      "TlsIP": "104.26.4.175", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws"
+    },
+    {     
       "Name": "️CLARO",
       "FLAG": "claro",
       "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
       "TlsIP": "199.60.103.228",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
-    },
+    }, 
     {
       "Name": "OI GO",
       "FLAG": "oi",
