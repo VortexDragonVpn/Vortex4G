@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "2.0.3",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/VortexDragonVpn/Vortex4G/main/README.md",
   "Sms": "BOTAR LINK DO SMS AQUI",
