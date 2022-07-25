@@ -27,7 +27,6 @@
   ],
   "Networks": [
     {
-      "Name": "?VIVO CLOUD",
       "FLAG": "vivo", 
       "Payload": "GET wss://[rotate=recarga.vivo.com.br;live.vivo.com.br;planosvivointernet.com.br;mobile.mercadolibre.com;www.oi.com.br;developers.mercadolivre.com;www.assinenet.com.br;hire.indeed.com;accounts.descomplica.com.br;reviews.submarino.com.br] HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]", 
       "SNI": "[app_host]", 
