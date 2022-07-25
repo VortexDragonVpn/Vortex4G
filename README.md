@@ -1,5 +1,3 @@
-NAO ENTREM NOS LINKS QUE TEM ALI EM BAIXO.
-
 {
 "Version": "1.35",
 "ReleaseNotes":"NOVA ATUALIZAÇÃO DISPONÍVEL\n
